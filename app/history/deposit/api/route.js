@@ -53,7 +53,7 @@ export async function POST(request) {
 
     // Define email options
     const mailOptions = {
-      from: "Cointrust mining <support@capitalnexus.pro>",
+      from: "Cointrust Mining <support@ctmbroker.com>",
       to: "livemarketsfx@gmail.com",
       subject: "Deposit Confirmation",
       html: `

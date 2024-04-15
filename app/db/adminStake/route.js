@@ -8,13 +8,13 @@ const sendEmail = async (email, subject, message) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "osr.cty@gmail.com",
-      pass: "btzbcklyxerxvkiy",
+      user: "cointrustminingpro@gmail.com",
+      pass: "mzoa hvxh djcp kspd",
     },
   });
 
   const mailOptions = {
-    from: "Cointrust mining <support@capitalnexus.pro>",
+    from: "Cointrust Mining <support@ctmbroker.com>",
     to: email,
     subject: subject,
     text: message,

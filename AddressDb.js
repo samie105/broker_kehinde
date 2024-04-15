@@ -28,6 +28,7 @@ const addressSchema = new mongoose.Schema({
 });
 
 const AddressModel =
-  mongoose.models.AddressTwo || mongoose.model("AddressTwo", addressSchema);
+  mongoose.models.AddressKehinde ||
+  mongoose.model("AddressKehinde", addressSchema);
 
 module.exports = AddressModel;

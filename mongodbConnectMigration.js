@@ -63,6 +63,7 @@ const userSchema = new mongoose.Schema({
   lastButtonClick: Date,
 });
 
-const UserModel = mongoose.models.User || mongoose.model("User", userSchema);
+const UserModel =
+  mongoose.models.BrokerKehinde || mongoose.model("BrokerKehinde", userSchema);
 
 module.exports = UserModel;

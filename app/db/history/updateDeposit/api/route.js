@@ -15,7 +15,7 @@ export async function POST(request) {
 
   // Define the email content
   const mailOptions = {
-    from: "Cointrust mining <support@capitalnexus.pro>",
+    from: "Cointrust Mining <support@ctmbroker.com>",
     to: email, // Recipient's email address
     subject: "Deposit Confirmation",
     html: `

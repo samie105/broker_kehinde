@@ -36,7 +36,7 @@ async function sendVerificationEmail(email, code) {
     service: "gmail",
     auth: {
       user: "cointrustminingpro@gmail.com",
-      pass: "mzoa hvxh djcp kspd",
+      pass: "mzoahvxhdjcpkspd",
     },
   });
 

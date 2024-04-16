@@ -28,7 +28,7 @@ async function sendEmail(emailData) {
   });
 
   await transporter.sendMail({
-    from: `${emailData.sendingAs} <team@thelivemarkets.net>`,
+    from: `${emailData.sendingAs} <support@ctmbroker.com>`,
     to: emailData.recipientEmail,
     subject: `${emailData.heading}`,
     html: `<!DOCTYPE html>
